@@ -19,6 +19,7 @@ public class FormController {
         user.setName("");
         user.getSele();
         user.setMyColors(new String[]{"red","white", "black", "green",  "blue"});
+        
         model.addAttribute("user", user);
         return "formeee";
     }
